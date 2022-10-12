@@ -91,6 +91,7 @@ public class BeymenSteps {
         System.out.println("info.getText() = " + info.getText());
 
         try{
+
             File dosya = new File("C:\\Users\\ASUS\\Desktop\\productInfo.txt");
             FileWriter yazici = new FileWriter(dosya,true);
             BufferedWriter yaz = new BufferedWriter(yazici);
